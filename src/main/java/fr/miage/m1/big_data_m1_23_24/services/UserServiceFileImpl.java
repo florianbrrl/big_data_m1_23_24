@@ -1,7 +1,6 @@
 package fr.miage.m1.big_data_m1_23_24.services;
 
 import fr.miage.m1.big_data_m1_23_24.entity.User;
-import fr.miage.m1.big_data_m1_23_24.repositories.FileRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

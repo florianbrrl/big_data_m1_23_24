@@ -1,8 +1,6 @@
 package fr.miage.m1.big_data_m1_23_24;
 
 import fr.miage.m1.big_data_m1_23_24.entity.User;
-import fr.miage.m1.big_data_m1_23_24.repositories.FileRepository;
-import fr.miage.m1.big_data_m1_23_24.repositories.UserRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
