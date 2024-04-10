@@ -14,21 +14,17 @@ import org.springframework.data.cassandra.core.mapping.Table;
 @AllArgsConstructor
 @Builder
 @Table
-public class Joueur {
+public class Team {
 
     @Id
     @PrimaryKey
     private UUID id;
 
-    private String firstname;
+    private String name;
 
-    private String lastname;
+    private String code;
 
-    private int age;
+    private String country;
 
-    private String nationality;
-
-    private String height;
-
-    private String weight;
+    private int founded;
 }
