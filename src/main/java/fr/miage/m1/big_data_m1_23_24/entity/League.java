@@ -1,5 +1,8 @@
 package fr.miage.m1.big_data_m1_23_24.entity;
 
+import lombok.*;
+import org.springframework.data.cassandra.core.mapping.Table;
+
 import org.springframework.data.annotation.Id;
 import lombok.*;
 import java.util.Set;
@@ -14,21 +17,14 @@ import org.springframework.data.cassandra.core.mapping.Table;
 @AllArgsConstructor
 @Builder
 @Table
-public class Joueur {
+public class League {
 
     @Id
     @PrimaryKey
     private UUID id;
 
-    private String firstname;
+    private String name;
 
-    private String lastname;
+    private String type;
 
-    private int age;
-
-    private String nationality;
-
-    private String height;
-
-    private String weight;
 }
