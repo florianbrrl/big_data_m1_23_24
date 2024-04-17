@@ -96,7 +96,11 @@
         }
       }
     }
+<<<<<<< HEAD
   },
+=======
+      },
+>>>>>>> 8c3f9642887fcd0f05539fb9fece680bb49ddc75
   "cli": {
     "analytics": false
   }
